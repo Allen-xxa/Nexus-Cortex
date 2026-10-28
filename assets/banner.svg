@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="360" viewBox="0 0 1280 360" role="img" aria-label="观复 · 本地优先的个人知识工作台">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0C0E11"/>
+      <stop offset="0.55" stop-color="#12151A"/>
+      <stop offset="1" stop-color="#0A0C0F"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.72" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#C9B98B" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#C9B98B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="rule" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C9B98B" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#C9B98B" stop-opacity="0.75"/>
+      <stop offset="1" stop-color="#C9B98B" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1280" height="360" fill="url(#bg)"/>
+  <rect width="1280" height="360" fill="url(#glow)"/>
+
+  <!-- 四角细框，呼应开屏的四角按钮 -->
+  <g stroke="#C9B98B" stroke-opacity="0.28" stroke-width="1" fill="none">
+    <path d="M28 56 V28 H56"/>
+    <path d="M1224 28 H1252 V56"/>
+    <path d="M28 304 V332 H56"/>
+    <path d="M1224 332 H1252 V304"/>
+  </g>
+
+  <!-- 主标题 -->
+  <g fill="#F2EEE4" font-family="'Songti SC','Noto Serif SC','Source Han Serif SC',serif">
+    <text x="96" y="168" font-size="92" letter-spacing="26">观复</text>
+  </g>
+  <text x="100" y="204" fill="#C9B98B" font-size="13" letter-spacing="7"
+        font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">G U A N F U</text>
+
+  <rect x="100" y="228" width="360" height="1" fill="url(#rule)"/>
+
+  <text x="100" y="266" fill="#D8D2C4" font-size="20" letter-spacing="2"
+        font-family="'Songti SC','Noto Serif SC',serif">观万物，复归其用</text>
+  <text x="100" y="298" fill="#8C9099" font-size="14" letter-spacing="1.2"
+        font-family="'Helvetica Neue',Helvetica,Arial,sans-serif">本地优先 · 个人知识工作台 · Windows</text>
+
+  <!-- 竖排引文：逐字定位，不依赖 writing-mode -->
+  <g fill="#C9B98B" fill-opacity="0.55" font-size="21"
+     font-family="'Songti SC','Noto Serif SC',serif">
+    <text x="900" y="120"><tspan x="900" dy="0">致</tspan><tspan x="900" dy="30">虚</tspan><tspan x="900" dy="30">极</tspan><tspan x="900" dy="30">，</tspan></text>
+    <text x="960" y="120"><tspan x="960" dy="0">守</tspan><tspan x="960" dy="30">静</tspan><tspan x="960" dy="30">笃</tspan><tspan x="960" dy="30">。</tspan></text>
+    <text x="1040" y="120"><tspan x="1040" dy="0">万</tspan><tspan x="1040" dy="30">物</tspan><tspan x="1040" dy="30">并</tspan><tspan x="1040" dy="30">作</tspan><tspan x="1040" dy="30">，</tspan></text>
+    <text x="1100" y="120"><tspan x="1100" dy="0">吾</tspan><tspan x="1100" dy="30">以</tspan><tspan x="1100" dy="30">观</tspan><tspan x="1100" dy="30">复</tspan><tspan x="1100" dy="30">。</tspan></text>
+  </g>
+  <text x="1180" y="120" fill="#8C9099" fill-opacity="0.7" font-size="12"
+        font-family="'Songti SC','Noto Serif SC',serif"><tspan x="1180" dy="0">道</tspan><tspan x="1180" dy="18">德</tspan><tspan x="1180" dy="18">经</tspan></text>
+</svg>
